@@ -179,3 +179,35 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ============================================
+# DATA SCIENCE PROJECT SPECIFIC
+# ============================================
+
+# Large data files (exceeds GitHub 100MB limit)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.dat
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+
+# Large model files (>100MB)
+models/*.h5          # Keras/TensorFlow models
+models/*.pb          # TensorFlow frozen models
+models/*.pth         # PyTorch models
+models/*.onnx        # ONNX models
+models/checkpoints/
+*.ckpt
+
+# Keep README files in data/models directories
+!data/README.md
+!data/*/README.md
+!models/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
