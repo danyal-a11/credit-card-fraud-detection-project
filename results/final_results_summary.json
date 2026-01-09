@@ -1,0 +1,94 @@
+{
+    "project_info": {
+        "project_name": "Credit Card Fraud Detection",
+        "evaluation_date": "2026-01-09 13:34:18",
+        "test_set_size": 56746,
+        "total_frauds": 95
+    },
+    "model_performance": {
+        "best_model": "XGBoost",
+        "best_test_auc": 0.9763288426180985,
+        "best_cv_auc": 0.9796643487339438,
+        "cv_to_test_difference": -0.0033355061158453214
+    },
+    "all_models_comparison": {
+        "cv_vs_test": [
+            {
+                "Model": "Logistic Regression",
+                "CV AUC": 0.9829989837112993,
+                "Test AUC": 0.9643168838939062,
+                "Difference": -0.018682099817393105
+            },
+            {
+                "Model": "Random Forest",
+                "CV AUC": 0.9793187220098467,
+                "Test AUC": 0.9654900875071653,
+                "Difference": -0.013828634502681458
+            },
+            {
+                "Model": "XGBoost",
+                "CV AUC": 0.9796643487339438,
+                "Test AUC": 0.9763288426180985,
+                "Difference": -0.0033355061158453214
+            },
+            {
+                "Model": "Neural Network",
+                "CV AUC": 0.9803489079600942,
+                "Test AUC": 0.9447953257665356,
+                "Difference": -0.03555358219355864
+            }
+        ],
+        "fraud_detection_metrics": [
+            {
+                "Model": "Logistic Regression",
+                "Frauds_Caught": 83,
+                "Frauds_Missed": 12,
+                "False_Positives": 1333,
+                "Recall_%": 87.36842105263159,
+                "Precision_%": 5.861581920903955
+            },
+            {
+                "Model": "Random Forest",
+                "Frauds_Caught": 71,
+                "Frauds_Missed": 24,
+                "False_Positives": 7,
+                "Recall_%": 74.73684210526315,
+                "Precision_%": 91.02564102564102
+            },
+            {
+                "Model": "XGBoost",
+                "Frauds_Caught": 82,
+                "Frauds_Missed": 13,
+                "False_Positives": 607,
+                "Recall_%": 86.31578947368422,
+                "Precision_%": 11.901306240928882
+            },
+            {
+                "Model": "Neural Network",
+                "Frauds_Caught": 79,
+                "Frauds_Missed": 16,
+                "False_Positives": 313,
+                "Recall_%": 83.15789473684211,
+                "Precision_%": 20.153061224489797
+            }
+        ]
+    },
+    "best_model_detailed_metrics": {
+        "frauds_caught": 82,
+        "frauds_missed": 13,
+        "false_positives": 607,
+        "recall_percentage": 86.31578947368422,
+        "precision_percentage": 11.901306240928882
+    },
+    "confusion_matrix": {
+        "true_negatives": 56044,
+        "false_positives": 607,
+        "false_negatives": 13,
+        "true_positives": 82
+    },
+    "key_insights": {
+        "generalization": "Excellent - CV and Test scores closely match",
+        "fraud_detection_rate": "86.3%",
+        "model_interpretation": "XGBoost achieves 0.9763 AUC, catching 86.3% of fraud with 607 false positives"
+    }
+}

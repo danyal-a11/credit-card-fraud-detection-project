@@ -1,0 +1,24 @@
+{
+    "model_type": "XGBoost",
+    "model_filename": "fraud_model_deployment.pkl",
+    "test_performance": {
+        "auc": 0.9763,
+        "fraud_recall": 0.863,
+        "fraud_precision": 0.119,
+        "frauds_caught": 82,
+        "frauds_missed": 13,
+        "false_positives": 607
+    },
+    "cv_performance": {
+        "mean_auc": 0.9797,
+        "cv_test_gap": -0.0033
+    },
+    "training_info": {
+        "resampling_method": "SMOTE",
+        "total_features": 30,
+        "training_samples": 227877
+    },
+    "deployment_ready": true,
+    "saved_date": "2026-01-09 16:51:00",
+    "notes": "Best generalization - smallest gap between CV and test performance"
+}

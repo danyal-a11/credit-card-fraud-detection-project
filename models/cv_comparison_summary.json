@@ -1,0 +1,41 @@
+{
+    "comparison_table": [
+        {
+            "Model": "Logistic Regression",
+            "Mean_CV_AUC": 0.9829989837112993,
+            "Std_CV_AUC": 0.008554253354188622,
+            "Min_CV_AUC": 0.9698641542184272,
+            "Max_CV_AUC": 0.9986667905421099
+        },
+        {
+            "Model": "Neural Network",
+            "Mean_CV_AUC": 0.9803489079600942,
+            "Std_CV_AUC": 0.01439483801378411,
+            "Min_CV_AUC": 0.950754762615118,
+            "Max_CV_AUC": 0.9942280738058649
+        },
+        {
+            "Model": "XGBoost",
+            "Mean_CV_AUC": 0.9796643487339438,
+            "Std_CV_AUC": 0.012244632264709903,
+            "Min_CV_AUC": 0.9548153541772394,
+            "Max_CV_AUC": 0.9961437961629581
+        },
+        {
+            "Model": "Random Forest",
+            "Mean_CV_AUC": 0.9793187220098467,
+            "Std_CV_AUC": 0.01495964592266626,
+            "Min_CV_AUC": 0.9448192522965808,
+            "Max_CV_AUC": 0.9887522065313328
+        }
+    ],
+    "best_model": {
+        "name": "Logistic Regression",
+        "mean_cv_auc": 0.9829989837112993,
+        "std_cv_auc": 0.008554253354188622,
+        "min_cv_auc": 0.9698641542184272,
+        "max_cv_auc": 0.9986667905421099
+    },
+    "selection_criteria": "Highest Mean CV AUC with acceptable stability",
+    "note": "Test set evaluation pending - CV scores are training-based estimates"
+}
