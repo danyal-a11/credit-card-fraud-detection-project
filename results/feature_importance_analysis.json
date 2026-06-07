@@ -1,0 +1,64 @@
+{
+  "model_name": "XGBoost",
+  "total_features": 30,
+  "top_10_features": [
+    {
+      "Feature": "V14",
+      "Importance": 0.46099647879600525,
+      "Importance_Percent": 46.099647521972656
+    },
+    {
+      "Feature": "V12",
+      "Importance": 0.04579804837703705,
+      "Importance_Percent": 4.57980489730835
+    },
+    {
+      "Feature": "V4",
+      "Importance": 0.04386461526155472,
+      "Importance_Percent": 4.3864617347717285
+    },
+    {
+      "Feature": "V10",
+      "Importance": 0.043803151696920395,
+      "Importance_Percent": 4.38031530380249
+    },
+    {
+      "Feature": "V8",
+      "Importance": 0.03669905662536621,
+      "Importance_Percent": 3.669905662536621
+    },
+    {
+      "Feature": "V11",
+      "Importance": 0.03396892175078392,
+      "Importance_Percent": 3.3968920707702637
+    },
+    {
+      "Feature": "V17",
+      "Importance": 0.02736370824277401,
+      "Importance_Percent": 2.736370801925659
+    },
+    {
+      "Feature": "Amount_scaled",
+      "Importance": 0.02468697540462017,
+      "Importance_Percent": 2.4686975479125977
+    },
+    {
+      "Feature": "V18",
+      "Importance": 0.021497907117009163,
+      "Importance_Percent": 2.1497907638549805
+    },
+    {
+      "Feature": "V22",
+      "Importance": 0.018324319273233414,
+      "Importance_Percent": 1.8324319124221802
+    }
+  ],
+  "cumulative_analysis": {
+    "features_for_50_percent": 2,
+    "features_for_75_percent": 10,
+    "features_for_90_percent": 20,
+    "features_for_95_percent": 24
+  },
+  "key_insight": "Top 3 features (V14, V12, V4) account for 55.1% of importance",
+  "interpretation_note": "V1-V28 are PCA-transformed; Amount and Time are original features"
+}

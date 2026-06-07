@@ -1,0 +1,30 @@
+{
+    "model_name": "XGBoost",
+    "model_auc": 0.9763288426180985,
+    "scenario": "Medium-sized US financial institution",
+    "assumptions": {
+        "monthly_transactions": 10000000,
+        "fraud_rate": 0.00173,
+        "avg_fraud_amount_usd": 275,
+        "investigation_cost_usd": 5
+    },
+    "without_model": {
+        "monthly_loss_usd": 4757500,
+        "annual_loss_usd": 57090000
+    },
+    "with_model": {
+        "frauds_prevented": 14932,
+        "prevented_amount_monthly_usd": 4106300,
+        "investigation_costs_monthly_usd": 534805,
+        "net_savings_monthly_usd": 3571495,
+        "net_savings_annual_usd": 42857940
+    },
+    "roi": {
+        "roi_ratio": 7.678125671973897,
+        "roi_percentage": 667.8125671973896
+    },
+    "metrics": {
+        "fraud_recall": 0.8631578947368421,
+        "fraud_precision": 0.11901306240928883
+    }
+}

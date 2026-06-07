@@ -1,0 +1,47 @@
+{
+  "model_name": "XGBoost",
+  "average_precision": 0.7475930878486665,
+  "baseline_precision": 0.0016741268107003137,
+  "improvement_over_random": 446.5570248743203,
+  "operating_points": [
+    {
+      "target_recall": 0.7,
+      "actual_recall": 0.6947368421052632,
+      "precision": 0.88,
+      "threshold": 0.9933191537857056
+    },
+    {
+      "target_recall": 0.8,
+      "actual_recall": 0.8,
+      "precision": 0.5352112676056338,
+      "threshold": 0.8551600575447083
+    },
+    {
+      "target_recall": 0.9,
+      "actual_recall": 0.9052631578947369,
+      "precision": 0.024677187948350072,
+      "threshold": 0.18180407583713531
+    },
+    {
+      "target_recall": 0.95,
+      "actual_recall": 0.9473684210526315,
+      "precision": 0.00709947148378954,
+      "threshold": 0.047166869044303894
+    }
+  ],
+  "curve_data": {
+    "num_threshold_points": 50705,
+    "precision_range": [
+      0.0016741268107003137,
+      1.0
+    ],
+    "recall_range": [
+      0.0,
+      1.0
+    ]
+  },
+  "interpretation": {
+    "why_pr_over_roc": "PR curves are more informative for imbalanced data because they focus on minority class performance",
+    "business_value": "Helps stakeholders understand the cost-benefit tradeoff of different detection thresholds"
+  }
+}

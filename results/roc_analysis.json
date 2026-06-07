@@ -1,0 +1,35 @@
+{
+    "model_name": "XGBoost",
+    "roc_auc": 0.9763288426180985,
+    "optimal_threshold": 0.17009562253952026,
+    "optimal_tpr": 0.9263157894736842,
+    "optimal_fpr": 0.06460609697975322,
+    "optimal_specificity": 0.9353939030202467,
+    "num_threshold_points": 5433,
+    "performance_at_fpr_levels": {
+        "fpr_0.001": {
+            "target_fpr": 0.001,
+            "actual_fpr": 0.001165027978323419,
+            "tpr": 0.8,
+            "threshold": 0.8551600575447083
+        },
+        "fpr_0.005": {
+            "target_fpr": 0.005,
+            "actual_fpr": 0.004836631303948739,
+            "tpr": 0.8421052631578947,
+            "threshold": 0.6484380960464478
+        },
+        "fpr_0.01": {
+            "target_fpr": 0.01,
+            "actual_fpr": 0.009549699034438933,
+            "tpr": 0.8631578947368421,
+            "threshold": 0.5199987888336182
+        },
+        "fpr_0.05": {
+            "target_fpr": 0.05,
+            "actual_fpr": 0.05014915888510353,
+            "tpr": 0.8947368421052632,
+            "threshold": 0.21071694791316986
+        }
+    }
+}
