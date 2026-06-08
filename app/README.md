@@ -1,22 +1,22 @@
- Deployment Application
+# Flask Web Application
 
-This directory will contain the Flask web application for fraud detection.
+Real-time fraud detection web app serving the XGBoost deployment model.
 
-## Structure (Coming Soon):
+## Run
+
+From the project root:
+
+```bash
+conda activate fraud_detection
+python app/app.py
 ```
-app/
-├── app.py             # Flask application
-├── templates/         # HTML templates
-├── static/            # CSS, JS, images
-└── requirements.txt   # Python dependencies
-```
 
-## Features (Planned):
-- Web interface for fraud prediction
-- Real-time transaction scoring
-- Model performance dashboard
-- API endpoints for integration
+Open `http://127.0.0.1:5000` in a browser.
 
-## Status:
-🚧 Under development - Will be added in Phase 4
-```
+## Files
+
+- `app.py` — Flask backend with prediction, health, and model-info endpoints
+- `templates/index.html` — Single-page frontend (HTML, CSS, JavaScript)
+- `static/css/` — Static assets
+
+See the main project [README](../README.md) for full details.
