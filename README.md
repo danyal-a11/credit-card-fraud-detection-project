@@ -8,6 +8,10 @@ An end-to-end machine learning project that detects fraudulent credit card trans
 
 ## Demo
 
+[![Watch the 30-second demo](https://img.youtube.com/vi/f8unPXaRgR0/maxresdefault.jpg)](https://youtu.be/f8unPXaRgR0)
+
+▶ **[Watch the 30-second demo on YouTube](https://youtu.be/f8unPXaRgR0)**
+
 ![Web app home](images/app_home.png)
 
 ![Legitimate transaction result](images/app_legit_result.png)
